@@ -6,15 +6,15 @@ This is a demonstration project that illustrates how Cython can be used to optim
 
 The file `version_1.py` contains the first version of the code. In this version, optimization was not applied, and the code uses standard Python functions to perform the calculation.
 
-- [version_1.py](version_1.py)
-- [module_1.py](module_1.py): Used in version 1, it contains the non-optimized code.
+- [version_1.py](./src/version_1.py)
+- [module_1.py](./src/module_1.py): Used in version 1, it contains the non-optimized code.
 
 ## Version 2
 
 The file `version_2.py` contains the second version of the code. In this version, Cython was used to optimize the code's performance. The code was rewritten in Cython, and variable typing was added to improve performance.
 
-- [version_2.py](version_2.py)
-- [module_2.pyx](module_2.pyx): Used in version 2, it contains the code optimized in Cython.
+- [version_2.py](./src/version_2.py)
+- [module_2.pyx](./src/module_2.pyx): Used in version 2, it contains the code optimized in Cython.
 
 ## How to Run
 
